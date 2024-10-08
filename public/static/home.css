@@ -1,0 +1,26 @@
+body {
+    background-image: url(../photos/random-mountain.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.home_container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    text-align: center;
+}
+button {
+    border-radius: 30px;
+    margin: 30px;
+    height: 70px;
+    width: 300px;
+    background-color:rgb(90, 137, 207);
+    color: white;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #FDB915;
+}
